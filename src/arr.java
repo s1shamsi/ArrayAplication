@@ -6,7 +6,6 @@ public class arr {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Create a HashMap to store the name counts
 	    HashMap<String, Integer> hash = new HashMap<>();
 
 	    // Read a list of names from the user
