@@ -22,6 +22,7 @@ public class duplicate {
 		}
 		
 		System.out.println("Duplicate elements in array: " + Arrays.toString(arr.toArray()));
+		
 	}
 
 }
