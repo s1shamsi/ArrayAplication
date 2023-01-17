@@ -8,10 +8,11 @@ public class number_k {
 		// TODO Auto-generated method stub
 		 int[] arr = { 1, 2, 4, 6, 8, 9, 10 };
 			
-		 System.out.println("k = " + Sum(arr));
+		// System.out.println("k = " + Sum(arr));
+		 Sum(arr);
 			}
-			public static int Sum(int[] evennumber) {
-		 int total = 14;
+			public static void Sum(int[] evennumber) {
+		 int total = 11;
 			
 		 for (int i = 0; i < evennumber.length; i++) {
 			 
@@ -23,12 +24,13 @@ public class number_k {
 		    	   
 		    	   
 		          System.out.println( + evennumber[i] + " + " + evennumber[j] + " = " + total);
+		          System.out.println("true");
 		           System.out.println("<><><><><><><><><><><><>");
 		              }
 		             }
 		            }
 		           }
-		 return total;
+	
 
 	}
 
